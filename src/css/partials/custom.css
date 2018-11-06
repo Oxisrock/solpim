@@ -1,0 +1,66 @@
+/******************************
+ESTILOS PROPIOS DEL TEMA
+*******************************/
+body {
+  font-size: var(--fontSize);
+}
+h1.typed-title {
+	font-size: responsive 1.8rem 3.6rem !important;
+}
+#citeHeader {
+	font-size: responsive 1.6rem 2rem !important;
+	
+}
+.intro-full {
+	display: grid !important;
+	justify-content: center;
+	align-content: center;
+}
+#namePpal {
+	font-size: responsive 1.8rem 3.2rem;
+
+	@media (--mobile) {
+		color: transparent !important;
+	}
+	@media (--desktop) {
+		font-size: 4rem;
+	}
+}
+.modal {
+	
+	& .modal-content {
+	background: #f1f1f1;
+	}
+
+	& .blue {		
+		background: #C8E2FF; 
+		padding: 1.5rem;
+
+		& strong {
+			color: rgba(0,0,0,.55);
+		}
+	}
+}
+.ms-hero-code {
+    background-image: url(../img/codigo.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat
+}
+.ms-hero-bg-dark::after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh !important;
+	background-color: rgba(2, 2, 2, .75);
+	z-index: 0;
+}
+.ms-slidebar .ms-slidebar-menu > li > a.link::after {
+	font-family: 'FontAwesome';
+	content: "\f054";
+}

@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+agmstudio.io	TRUE	/	FALSE	1999999999	240planBAK	R2339303237
+agmstudio.io	TRUE	/	FALSE	1999999999	240plan	R3498002709
+

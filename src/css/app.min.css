@@ -1,0 +1,13 @@
+/*Hoja de Estilo*/
+/*Desarrollada para el proyecto: Pagina personal
+**Por: Enrique Valerio
+**Enero 2018
+*/
+@import './partials/variables.css';
+@import './partials/mediaquery.css';
+@import './partials/tipografia.css';
+@import './partials/custom.css';
+
+/******************************
+MEDIA-QUERIES
+*******************************/

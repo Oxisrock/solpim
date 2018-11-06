@@ -1,0 +1,36 @@
+{
+  "name": "enriquevalerio",
+  "version": "1.0.0",
+  "description": "Página personal",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caballero73/enriquevalerio"
+  },
+  "author": "Enrique Valerio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caballero73/enriquevalerio/issues"
+  },
+  "homepage": "https://github.com/Caballero73/enriquevalerio#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.23.5",
+    "css-mqpacker": "^6.0.2",
+    "csswring": "^6.0.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-file-include": "^2.0.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "lost": "^8.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^2.1.2",
+    "rucksack-css": "^1.0.2"
+  }
+}

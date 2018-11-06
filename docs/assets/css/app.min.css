@@ -1,0 +1,116 @@
+/*Hoja de Estilo*/
+/*Desarrollada para el proyecto: Pagina personal
+**Por: Enrique Valerio
+**Enero 2018
+*/
+/*Tipografía usada*/
+/******************************
+ESTILOS PROPIOS DEL TEMA
+*******************************/
+body {
+  font-size: 16px;
+}
+h1.typed-title {
+	font-size: calc(0.92093rem + 3.34884vw);
+}
+@media screen and (min-width: 1280px) {
+  h1.typed-title {
+    font-size: 57.6px;
+    font-size: 3.6rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  h1.typed-title {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+  }
+}
+#citeHeader {
+	font-size: calc(1.40465rem + 0.74419vw);
+	
+}
+@media screen and (min-width: 1280px) {
+  #citeHeader {
+    font-size: 32px;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  #citeHeader {
+    font-size: 25.6px;
+    font-size: 1.6rem;
+  }
+}
+.intro-full {
+	display: grid !important;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+}
+#namePpal {
+	font-size: calc(1.11628rem + 2.60465vw);
+}
+@media screen and (min-width: 1280px) {
+  #namePpal {
+    font-size: 51.2px;
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  #namePpal {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 0px) and (max-width: 544px) {
+#namePpal {
+		color: transparent !important
+}
+	}
+@media (min-width: 1421px) and (max-width: 3000px) {
+#namePpal {
+		font-size: 64px;
+		font-size: 4rem
+}
+	}
+.modal .modal-content {
+	background: #f1f1f1;
+	}
+.modal .blue {		
+		background: #C8E2FF; 
+		padding: 24px; 
+		padding: 1.5rem;
+	}
+.modal .blue strong {
+			color: #000000;
+			color: rgba(0, 0, 0, .55);
+		}
+.ms-hero-code {
+    background-image: url(../img/codigo.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat
+}
+.ms-hero-bg-dark:after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh !important;
+	background-color: #020202;
+	background-color: rgba(2, 2, 2, .75);
+	z-index: 0;
+}
+.ms-slidebar .ms-slidebar-menu > li > a.link:after {
+	font-family: 'FontAwesome';
+	content: "\f054";
+}
+/******************************
+MEDIA-QUERIES
+*******************************/

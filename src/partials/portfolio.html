@@ -1,0 +1,77 @@
+      <!-- Portfolio -->
+      <div class="card mt-4 wow fadeInUp container" id="portfolio">
+        <div class="card-block card-block-big">
+          <!-- Titulo Portfolio -->
+          <h3 class="text-center fw-500 mb-4">Portfolio</h3>
+          <!-- Menu Tabs -->
+          <div class="mw-800 center-block mb-4">
+            <ul class="nav nav-tabs nav-tabs-transparent indicator-primary nav-tabs-full nav-tabs-5" role="tablist">
+
+              <li role="presentation" class="active filter" data-filter="all">
+                <a class="withoutripple" href="#cero" aria-controls="cero" role="tab" data-toggle="tab">
+                  <i class="fa fa-cubes"></i>
+                  <span class="hidden-xs">Todo</span>
+                </a>
+              </li>
+
+              <li role="presentation" class="filter" data-filter=".category-1">
+                <a class="withoutripple" href="#uno" aria-controls="uno" role="tab" data-toggle="tab">
+                  <i class="fa fa-html5"></i>
+                  <span class="hidden-xs">HTML</span>
+                </a>
+              </li>
+
+              <li role="presentation" class="filter" data-filter=".category-2">
+                <a class="withoutripple" href="#dos" aria-controls="dos" role="tab" data-toggle="tab">
+                  <i class="fa fa-wordpress"></i>
+                  <span class="hidden-xs">Wordpress</span>
+                </a>
+              </li>
+
+              <li role="presentation" class="filter" data-filter=".category-3">
+                <a class="withoutripple" href="#tres" aria-controls="tres" role="tab" data-toggle="tab">
+                  <i class="fa fa-paint-brush"></i>
+                  <span class="hidden-xs">Ilustraciones</span>
+                </a>
+              </li>
+
+              <li role="presentation" class="filter" data-filter=".category-4">
+                <a class="withoutripple" href="#cuatro" aria-controls="cuatro" role="tab" data-toggle="tab">
+                  <i class="fa fa-book"></i>
+                  <span class="hidden-xs">Tutoriales</span>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          
+          <!-- Contenedor Items -->
+          <div class="row" id="Container">
+            <!-- Item Humberto Montes -->
+            @include('./partials/item01.html')
+            <!-- Item PisciculturaGlobal -->
+            @include('./partials/item02.html')
+            <!-- Item Frontend con Foundation -->            
+            @include('./partials/item07.html')
+            <!-- Item VintageClub -->
+            @include('./partials/item04.html')
+            <!-- Item Portadas para Cuadernos -->            
+            @include('./partials/item09.html')
+            <!-- Item BabyTaso -->
+            @include('./partials/item03.html')
+            <!-- Item M&G Inmobiliaria -->
+            @include('./partials/item05.html')
+            <!-- Item Región Falcón 2 -->            
+            @include('./partials/item06.html')
+            <!-- Item Ubana -->            
+            @include('./partials/item12.html')
+            <!-- Item Animaciones Web -->            
+            @include('./partials/item08.html')
+            <!-- Item Hotel Brisas Paraguaná -->            
+            @include('./partials/item10.html')
+            <!-- Item Región Falcón -->            
+            @include('./partials/item11.html')
+            
+          </div>
+        </div>
+      </div><!-- ./Portfolio -->
