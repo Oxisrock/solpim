@@ -1,21 +1,21 @@
 {
-  "name": "enriquevalerio",
+  "name": "solpim",
   "version": "1.0.0",
-  "description": "Página personal",
+  "description": "Sitio web para la empresa Solpim",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Caballero73/enriquevalerio"
+    "url": "git+https://github.com/Caballero73/XXXXXXXXXXXXXXX"
   },
   "author": "Enrique Valerio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Caballero73/enriquevalerio/issues"
+    "url": "https://github.com/Caballero73/XXXXXXXXXXXXXXX/issues"
   },
-  "homepage": "https://github.com/Caballero73/enriquevalerio#readme",
+  "homepage": "https://github.com/Caballero73/XXXXXXXXXXXXXXX#readme",
   "devDependencies": {
     "autoprefixer": "^7.2.3",
     "browser-sync": "^2.23.5",

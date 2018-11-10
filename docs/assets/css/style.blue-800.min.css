@@ -3758,7 +3758,10 @@ iframe {
     display: table;
 }
 .material-background {
-    background-color: #607d8b;
+    background-color: #cacaca;
+    background-image: url("../img/bg-price.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     position: absolute;
     width: 100%;
