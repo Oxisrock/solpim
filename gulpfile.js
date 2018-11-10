@@ -73,7 +73,7 @@ gulp.task('medios', function() {
 
 // Tarea para utilizar fileinclude
 gulp.task('fileinclude', function() {
-  gulp.src('./src/*.html')
+  gulp.src('./src/*.*')
     .pipe(fileinclude({
       prefix: '@',
       basepath: './src'
@@ -89,7 +89,7 @@ gulp.task('watch', function () {
   gulp.watch('./src/img/**/*.*', ['image']).on('change', browserSync.reload)
   gulp.watch('./src/fonts/**/*.*', ['fonts']).on('change', browserSync.reload)
   gulp.watch('./src/media/**/*.*', ['medios']).on('change', browserSync.reload)
-  gulp.watch('./src/**/*.html', ['fileinclude']).on('change', browserSync.reload)
+  gulp.watch('./src/**/*.*', ['fileinclude']).on('change', browserSync.reload)
 });
 
 gulp.task('default', ['css', 'js', 'image', 'fonts', 'medios', 'fileinclude', 'watch', 'serve'])

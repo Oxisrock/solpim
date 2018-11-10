@@ -1,17 +1,19 @@
-# Enrique Valerio
-## Diseñador Gráfico
+# SOLPIM
+## Soluciones para imprentas
 
-### Página personal
+### Página Web
 
-Diseñador Gráfico con 14 años de experiencia en diversas ramas del oficio. He trabajado principalmente como diseñador de Branding y Frontend Desing, ocupando puestos de supervisión en equipos creativos. En el área de impresión comercial, laboré como Jefe de Producción de una imprenta.
+SOLPIM – Divirisa S.A. – Soluciones para imprentas, fue creada en agosto de 2018 a partir de un detallado análisis de la industria gráfica en general.
 
-Actualmente, luego de un proceso de crecimiento profesional dentro de esta área, me desempeño como Coordinador de Frontend Desing en Slice Group.
+En él se concluyó que los cambios son de tal magnitud que indefectiblemente afectará a aquellas empresas que no puedan, por diferentes motivos, adaptarse a
+las nuevas exigencias del mercado.
 
-Antes de unirme a Slice Group, empredí mi propia empresa de diseño gráfico donde tuve la suerte de trabajar con excelentes clientes, que me ayudaron a formar un criterio de calidad y disciplina. Posteriormente, en sociedad con empresarios jóvenes y de visión, fundamos Gráficas Litho Xpress, una compañía que de inmediato se destacó y al poco tiempo tomó el liderazgo como empresa de impresión comercial y publicitaria a nivel regional, allí laboré durante 12 años como Jefe de Producción, adquiriendo sólidos conocimientos en la materia, además de nociones claras sobre como dirigir un equipo de trabajo eficiente.
+Fue evidente en este análisis que prácticamente no hay imprenta que no tenga una base mínima de clientela fija, fiel en general al dueño de la misma, que es la que hace aún viable su existencia.
 
-Realmente soy un apasionado de mi trabajo, siempre con ganas de aprender, mientras disfruto de todos los aspectos de mi empleo, creo que mi etapa favorita en un proyecto es el desarrollo del mismo, trabajar con mis compañeros para cristalizar una idea, que luego sea realmente útil para nuestros clientes. A medida que avanzamos a través de ese proceso de colaboración, las ideas comienzan a fluir y eso siempre es la parte más edificadora.
+También se ha apreciado una competencia de precios que atenta contra los márgenes mínimos de rentabilidad, lo cual generalmente se compensa con una disminución notoria de retiro de utilidades en detrimento de la calidad de vida de
+los propietarios. 
 
-Aparte de mi formación académica tradicional, opté y quedé seleccionado para una Beca Empresarial de Platzi, donde he adquirido muchas herramientas útiles para mi actual desempeño profesional… Además, siempre estoy interesado en escuchar a compañeros, gerentes o simplemente gente interesante y creativa, que me permita mejorar cada día un poco más.
+SOLPIM quiere aportar a esta realidad una alternativa válida basada en una plataforma fundamental y tres columnas que sostendrán la propuesta.
 
 ### Equipo
 * [Enrique Valerio (Diseñador)](https://caballero73.github.io/enriquevalerio/ "Enrique Valerio - Diseñador")
