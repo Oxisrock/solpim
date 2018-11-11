@@ -7,6 +7,11 @@
 /******************************
 ESTILOS price_calc.html
 *******************************/
+.price_calc .container {
+		max-width: 1440px;
+		max-width: 90rem;
+		width: 90%;
+	}
 .price_calc h2, .price_calc h3, .price_calc h4, .price_calc h5, .price_calc h6 {
 		color: #1565C0;
 		font-family: Roboto, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -76,16 +81,16 @@ ESTILOS price_calc.html
 		border-right: solid 1px #D2D2D2;
 		border-bottom: solid 1px #D2D2D2;
 		border-left: solid 1px transparent;
-		padding-top: 4.8px;
-		padding-top: .3rem;
+		padding: 10.4px 6.4px 10.4px 0;
+		padding: .65rem .4rem .65rem 0;
 	}
 .price_calc .relative-box p {
-			font-size: calc(0.80465rem + 0.74419vw);
+			font-size: calc(0.75581rem + 0.93023vw);
 		}
 @media screen and (min-width: 1280px) {
 		.price_calc .relative-box p {
-				font-size: 22.4px;
-				font-size: 1.4rem;
+				font-size: 24px;
+				font-size: 1.5rem;
 		}
 }
 @media screen and (max-width: 420px) {

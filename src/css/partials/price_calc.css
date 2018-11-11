@@ -3,6 +3,11 @@ ESTILOS price_calc.html
 *******************************/
 .price_calc {
 
+	.container {
+		max-width: 90rem;
+		width: 90%;
+	}
+
 	& h2, h3, h4, h5, h6 {
 		color: var(--colorPpal);
 		font-family: Roboto, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -41,10 +46,10 @@ ESTILOS price_calc.html
 		border-right: solid 1px var(--colorGrayLigth);
 		border-bottom: solid 1px var(--colorGrayLigth);
 		border-left: solid 1px transparent;
-		padding-top: .3rem;
+		padding: .65rem .4rem .65rem 0;
 
 		& p {
-			font-size: responsive 1rem 1.4rem;
+			font-size: responsive 1rem 1.5rem;
 		}
 	}
 

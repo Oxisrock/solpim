@@ -91,40 +91,45 @@
                 <fieldset>
                   <div class="row">
                     
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <div class="form-group">
-                      <p class="text-center">Dolar interbancario al
-                        <script>
-                        var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-                        var f=new Date();
-                        document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-                        </script>
-                      </p>
-                      <p class="text-center"><big><strong>32,05</strong></big></p>
+                        <p class="">Dolar interbancario al
+                          <script>
+                          var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                          var f=new Date();
+                          document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                          </script>
+                        = <big><strong>32,05</strong></big></p>
                       </div>                    
                     </div>
 
-                    <div class="col-sm-6">
+                    <!-- Condiciones de Pago -->
+                    <div class="col-sm-8">
                       <div class="form-group">
                         <legend>Condiciones de Pago</legend>
-                        <label for="terms01" class="col-md-2 control-label">Condiciones</label>
+                        <label for="terms01" class="col-xs-3 control-label">Condiciones</label>
 
-                          <div class="col-md-10">
+                          <div class="col-xs-9 col-sm-8">
                             <select id="terms01" class="form-control selectpicker">
-                              <option>Condición 1</option>
+                              <option>Contado</option>
                               <option>Condición 2</option>
                               <option>Condición 3</option>
                             </select>
                           </div>
                       </div>                    
                     </div>
+                    <div class="col-sm-4">
+                      <div class="form-group relative-box two-files">
+                        <p class="">Si no tiene condición de pago acordada considere CONTADO.</p>
+                      </div>
+                    </div>
 
-                    <div class="col-sm-6">
+                    <!-- Máquina -->
+                    <div class="col-sm-7">
                       <div class="form-group">
                         <legend>Seleccione la máquina apropiada</legend>
-                        <label for="select01" class="col-md-2 control-label">Máquina</label>
-
-                          <div class="col-md-10">
+                        <label for="select01" class="col-xs-3 control-label">Máquina</label>
+                          <div class="col-xs-9 col-sm-8">
                             <select id="select01" class="form-control selectpicker">
                               <option>Spedd Master 52</option>
                               <option>Spedd Master 74</option>
@@ -133,24 +138,41 @@
                           </div>
                       </div>                    
                     </div>
+                    <div class="col-sm-5">
+                      <div class="form-group relative-box">
+                        <p class="">Si la cantidad es alta no deje de probar poner más formas y usar una máquina de mayor tamaño.<br class="hidden-xs hidden-sm"><br class="hidden-xs hidden-sm"></p>
+                      </div>
+                    </div>
 
-                    <div class="col-xs-6 col-sm-3">
+                    <div class="clearfix"></div>
+
+                    <!-- Chapas -->
+                    <div class="col-xs-12 col-sm-3">
                       <div class="form-group">
                         <legend>Chapas necesarias</legend>
-                        <label for="number01" class="col-xs-6 control-label">N° Chapas</label>
-
+                        <label for="number01" class="col-xs-5 control-label">Cant.</label>
                           <div class="col-xs-6">
-                            <input type="number" class="form-control" id="number01">
+                            <input type="number" min="1" class="form-control" id="number01">
                           </div>
                       </div>                    
                     </div>
-                    <div class="col-xs-6 col-sm-3">
+                    <div class="col-xs-12 col-sm-9">
                       <div class="form-group relative-box">
-                        <p class="">&nbsp;&nbsp; C/U $U: <span><b>165<sup>00</sup></b></span></p>
-                        <p class="">&nbsp;&nbsp; Total $U: <span><b>660<sup>00</sup></b></span></p>
-                        <p class="">&nbsp;&nbsp; Total US$: <span><b>20<sup>59</sup></b></span></p>
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <p class="">
+                              &nbsp;&nbsp; C/U $U: <span><b>165<sup>00</sup></b></span><br>
+                              &nbsp;&nbsp; Total $U: <span><b>660<sup>00</sup></b></span><br>
+                              &nbsp;&nbsp; Total US$: <span><b>20<sup>59</sup></b></span>
+                            </p>                            
+                          </div>
+                          <div class="col-xs-8">
+                            <p class="">Nuestras chapas son de alta calidad y soportan sin inconveniente alguno 100,000 impresiones. Compare su precio y se sorprenderá.</p>                            
+                          </div>
+                        </div>
                       </div>
-                    </div>
+                    </div>                
+
 
                     <div class="col-xs-6 col-sm-3">
                       <div class="form-group">
