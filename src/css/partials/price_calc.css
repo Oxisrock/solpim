@@ -16,7 +16,7 @@ ESTILOS price_calc.html
 
 	& form .form-group legend {
 		color: var(--colorSubTitle);
-		font-size: responsive 1.2rem 1.6rem;
+		font-size: responsive 1.4rem 1.6rem;
 		/*font-weight: bold;*/
 	}
 	
@@ -34,6 +34,12 @@ ESTILOS price_calc.html
 		margin: 16px 0 0;
 	}
 
+	& .form-group .help-block {
+		margin-top: 0;
+		font-size: responsive 1.1rem 1.2rem;
+		line-height: 1;
+	}
+
 	& .legendGray {
 		font-size: 16px;
 		color: #9e9e9e !important;
@@ -49,8 +55,12 @@ ESTILOS price_calc.html
 		padding: .65rem .4rem .65rem 0;
 
 		& p {
-			font-size: responsive 1rem 1.5rem;
+			font-size: responsive 1rem 1.4rem;
 		}
+	}
+
+	& .especial-margin {
+		padding-left: 1rem;
 	}
 
 	& .superh1 {
