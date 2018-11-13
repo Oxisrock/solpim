@@ -101,8 +101,19 @@ ESTILOS price_calc.html
 		padding: 10.4px 6.4px 10.4px 0;
 		padding: .65rem .4rem .65rem 0;
 	}
+@media (min-width: 0px) and (max-width: 544px) {
+.price_calc .relative-box {
+			border-radius: 0 4px 4px 0;
+			border-top: solid 1px transparent;
+			border-right: solid 1px #D2D2D2;
+			border-bottom: solid 1px #D2D2D2;
+			border-left: solid 1px #D2D2D2;
+			padding: 0 10.4px 10.4px 10.4px;
+			padding: 0 .65rem .65rem .65rem
+	}
+		}
 .price_calc .relative-box p {
-			font-size: calc(0.80465rem + 0.74419vw);
+			font-size: calc(1.10233rem + 0.37209vw);
 		}
 @media screen and (min-width: 1280px) {
 		.price_calc .relative-box p {
@@ -112,8 +123,8 @@ ESTILOS price_calc.html
 }
 @media screen and (max-width: 420px) {
 		.price_calc .relative-box p {
-				font-size: 16px;
-				font-size: 1rem;
+				font-size: 19.2px;
+				font-size: 1.2rem;
 		}
 }
 .price_calc .especial-margin {
@@ -136,6 +147,21 @@ ESTILOS price_calc.html
 		.price_calc .superh1 {
 				font-size: 35.2px;
 				font-size: 2.2rem;
+		}
+}
+.price_calc .title-togglebutton {
+		font-size: calc(1.30233rem + 0.37209vw);
+	}
+@media screen and (min-width: 1280px) {
+		.price_calc .title-togglebutton {
+				font-size: 25.6px;
+				font-size: 1.6rem;
+		}
+}
+@media screen and (max-width: 420px) {
+		.price_calc .title-togglebutton {
+				font-size: 22.4px;
+				font-size: 1.4rem;
 		}
 }
 .price_calc .total {
@@ -176,6 +202,13 @@ ESTILOS price_calc.html
 		padding: 2rem 0 2rem 0;
 
 	}
+@media (min-width: 0px) and (max-width: 544px) {
+.price_calc .two-files {
+			padding: 0 10.4px 10.4px 10.4px;
+			padding: 0 .65rem .65rem .65rem
+
+	}
+		}
 /******************************
 ESTILOS PROPIOS DEL TEMA
 *******************************/
@@ -183,6 +216,12 @@ body {
   font-size: 16px;
   margin-top: 13vh !important;
 }
+@media (min-width: 0px) and (max-width: 544px) {
+body {
+  	margin-top: 88px !important;
+  	margin-top: 5.5rem !important
+}
+  }
 h1.typed-title {
 	font-size: calc(0.92093rem + 3.34884vw);	
 }
@@ -306,10 +345,22 @@ h1.typed-title {
 	background-color: #1565C0 !important;
 	height: 13vh;
 }
+@media (min-width: 0px) and (max-width: 544px) {
+.ms-lead-navbar {
+		max-height: 88px;
+		max-height: 5.5rem
+}
+	}
 .ms-lead-navbar .logo {
 		height: 10vh;
 		width: auto;
 	}
+@media (min-width: 0px) and (max-width: 544px) {
+.ms-lead-navbar .logo {
+			max-height: 64px;
+			max-height: 4rem
+	}
+		}
 .mb-1 {margin-bottom: 16px;margin-bottom: 1rem;}
 .mt-1 {margin-top: 16px;margin-top: 1rem;}
 .mb-2 {margin-bottom: 32px;margin-bottom: 2rem;}

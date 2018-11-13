@@ -270,8 +270,8 @@
                     <div class="col-xs-12 col-sm-4">
                       <div class="form-group">
                         <legend>Cantidad de pliegos buenos</legend>
-                        <label for="goodsheet01" class="col-xs-5 control-label">Cantidad</label>
-                          <div class="col-xs-7">
+                        <label for="goodsheet01" class="col-xs-4 control-label">Cantidad</label>
+                          <div class="col-xs-6">
                             <input type="number" class="form-control" id="goodsheet01">
                           </div>
                       </div>                    
@@ -304,19 +304,21 @@
                       </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-5">
                       <div class="form-group" style="margin-top: 0 !important">
                         <legend>Porcentaje estimado de cubrimiento</legend>
-                        <label for="inkPercent01" class="col-xs-6 control-label">Porcentaje</label>
-                          <div class="col-xs-6 mb-3">
+                        <label for="inkPercent01" class="col-xs-4 control-label">Porcentaje</label>
+                          <div class="col-xs-4 mb-3">
                             <input type="number" class="form-control" id="inkPercent01">
                           </div>
-                          <p class="small">&nbsp;&nbsp; Consumo estimado <span class="bold" id="inkC01">250</span> gramos</p>
-                          <p class="small">&nbsp;&nbsp; Importe adicional por tinta $U <span class="bold" id="inkP01">550<sup>00</sup></span></p>
+                          <div class="col-xs-12">
+                            <p class="small">&nbsp;&nbsp; Consumo estimado <span class="bold" id="inkC01">250</span> gramos</p>
+                            <p class="small">&nbsp;&nbsp; Importe adicional por tinta $U <span class="bold" id="inkP01">550<sup>00</sup></span></p>
+                          </div>
                       </div>                    
                     </div>
 
-                    <div class="col-xs-12 col-sm-8">
+                    <div class="col-xs-12 col-sm-7">
                       <div class="form-group relative-box two-files" style="margin-top: 0 !important">
                         <p class="">El costo de fondear un pliego es importante y debe considerarse en el precio - SOLO cobramos el costo de la tinta.</p>
                         <p>De no hacerlo sería una situación injusta frente a quien solo imprime texto.</p>
@@ -336,31 +338,31 @@
                   <div class="row">
                     <h3>Adicionales</h3>
                     
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12">
                       <div class="form-group">
                           <div class="col-xs-12">
                               <div class="togglebutton">
                                   <label>
-                                    <strong>¿Refilamos su trabajo?</strong> &nbsp;No<input id="cut02" type="checkbox" checked=""> Si
+                                    <strong class="title-togglebutton">¿Refilamos su trabajo?</strong><br class="visible-xs"> &nbsp;No<input id="cut02" type="checkbox" checked="no"> Si
                                   </label>
                               </div>
                           </div>
                       </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12">
                       <div class="form-group">
                           <div class="col-xs-12">
                               <div class="togglebutton">
                                   <label>
-                                    <strong>¿Doble corte?</strong> &nbsp;No<input id="cut03" type="checkbox" checked=""> Si
+                                    <strong class="title-togglebutton">¿Doble corte?</strong><br class="visible-xs"> &nbsp;No<input id="cut03" type="checkbox" checked="no"> Si
                                   </label>
                               </div>
                           </div>
                       </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12">
                       <div class="form-group">
                           <div class="col-xs-12">
                               <div class="togglebutton">
@@ -374,28 +376,28 @@
 
                     <div class="clearfix"></div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12">
                       <div class="form-group">
                           <div class="col-xs-12">
                               <div class="togglebutton" style="padding-top: 1.5rem">
                                   <label>
-                                    <strong>¿Empaquetamos su trabajo?</strong> &nbsp;No<input id="pack01" type="checkbox" checked=""> Si
+                                    <strong class="title-togglebutton">¿Empaquetamos su trabajo?</strong><br class="visible-xs"> &nbsp;No<input id="pack01" type="checkbox" checked="no"> Si
                                   </label>
                               </div>
                           </div>
                       </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-3">
+                    <div class="col-xs-12 col-sm-5">
                       <div class="form-group">
-                        <label for="pack02" class="col-xs-7 control-label">Hacer paquetes de</label>
-                          <div class="col-xs-5">
+                        <label for="pack02" class="col-xs-7 col-sm-6 control-label">Hacer paquetes de</label>
+                          <div class="col-xs-5 col-sm-4">
                             <input type="number" class="form-control" id="pack02">
                           </div>
                       </div>                    
                     </div>
 
-                    <div class="col-xs-6 col-sm-2">
+                    <div class="col-xs-12 col-sm-5">
                       <div class="form-group">
                           <div class="col-xs-12">
                               <div class="" style="padding-top: 1.5rem">
@@ -407,7 +409,7 @@
                       </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-3">
+                    <div class="col-xs-12">
                       <div class="form-group">
                           <div class="col-xs-12">
                               <div class="" style="padding-top: 1.5rem">
@@ -425,7 +427,7 @@
                       <div class="form-group">
                         <legend class="legendGray"><strong>&nbsp;&nbsp;¿Doblamos su trabajo?</strong></legend>
                         
-                        <div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="col-xs-6 col-sm-6">
                           <div class="radio radio-primary">
                               <label>
                                   <input type="radio" name="folding" id="folding01" value="1" type="checkbox"> Díptico
@@ -473,14 +475,14 @@
                   <br>
 
                   <div class="row">
-                    <div class="col-sm-4 hidden-xs"></div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-sm-3 hidden-xs"></div>
+                    <div class="col-xs-12 col-sm-6">
                       <div class="well">
                         <p class="total">Total trabajo $U: <span>2288<sup>00</sup></span></p>
                         <p class="total">Total trabajo US$: <span>69<sup>33</sup></span></p>      
                       </div>                  
                     </div>
-                    <div class="col-sm-4 hidden-xs"></div>                  
+                    <div class="col-sm-3 hidden-xs"></div>                  
                   </div><!-- /*row -->
                        
                   <div class="form-group">

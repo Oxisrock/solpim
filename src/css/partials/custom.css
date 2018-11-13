@@ -4,6 +4,10 @@ ESTILOS PROPIOS DEL TEMA
 body {
   font-size: var(--fontSize);
   margin-top: 13vh !important;
+
+  @media (--mobile) {
+  	margin-top: 5.5rem !important;
+  }
 }
 h1.typed-title {
 	font-size: responsive 1.8rem 3.6rem !important;	
@@ -75,9 +79,17 @@ h1.typed-title {
 	background-color: #1565C0 !important;
 	height: 13vh;
 
+	@media (--mobile) {
+		max-height: 5.5rem;
+	}
+
 	& .logo {
 		height: 10vh;
 		width: auto;
+
+		@media (--mobile) {
+			max-height: 4rem;
+		}
 	}
 }
 
