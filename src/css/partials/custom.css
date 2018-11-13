@@ -14,7 +14,9 @@ h1.typed-title {
 }
 #citeHeader {
 	font-size: responsive 1.6rem 2rem !important;
-	
+}
+.color-gray {
+	color: var(--colorGray);
 }
 .intro-full {
 	display: grid !important;
@@ -74,7 +76,7 @@ h1.typed-title {
 	height: 13vh;
 
 	& .logo {
-		height: 11vh;
+		height: 10vh;
 		width: auto;
 	}
 }

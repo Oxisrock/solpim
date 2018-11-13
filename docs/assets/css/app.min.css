@@ -216,7 +216,6 @@ h1.typed-title {
 }
 #citeHeader {
 	font-size: calc(1.40465rem + 0.74419vw);
-	
 }
 @media screen and (min-width: 1280px) {
 		#citeHeader {
@@ -229,6 +228,9 @@ h1.typed-title {
 				font-size: 25.6px;
 				font-size: 1.6rem;
 		}
+}
+.color-gray {
+	color: #757575;
 }
 .intro-full {
 	display: grid !important;
@@ -305,7 +307,7 @@ h1.typed-title {
 	height: 13vh;
 }
 .ms-lead-navbar .logo {
-		height: 11vh;
+		height: 10vh;
 		width: auto;
 	}
 .mb-1 {margin-bottom: 16px;margin-bottom: 1rem;}
