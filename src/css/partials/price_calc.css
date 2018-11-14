@@ -45,7 +45,16 @@ ESTILOS price_calc.html
 		color: #9e9e9e !important;
 
 	}
-
+	& .printer-title {
+		color: #9e9e9e !important;
+		font-weight: 600;
+		font-size: responsive 1.25rem 1.4rem;
+		line-height: 1.1;
+	}
+	& .printer-table {
+		font-size: responsive 1.25rem 1.4rem;
+		
+	}
 	& .relative-box {
 		border-radius: 0 4px 4px 0;
 		border-top: solid 1px var(--colorGrayLigth);

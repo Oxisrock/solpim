@@ -92,6 +92,40 @@ ESTILOS price_calc.html
 		color: #9e9e9e !important;
 
 	}
+.price_calc .printer-title {
+		color: #9e9e9e !important;
+		font-weight: 600;
+		font-size: calc(1.17674rem + 0.27907vw);
+		line-height: 1.1;
+	}
+@media screen and (min-width: 1280px) {
+		.price_calc .printer-title {
+				font-size: 22.4px;
+				font-size: 1.4rem;
+		}
+}
+@media screen and (max-width: 420px) {
+		.price_calc .printer-title {
+				font-size: 20px;
+				font-size: 1.25rem;
+		}
+}
+.price_calc .printer-table {
+		font-size: calc(1.17674rem + 0.27907vw);
+		
+	}
+@media screen and (min-width: 1280px) {
+		.price_calc .printer-table {
+				font-size: 22.4px;
+				font-size: 1.4rem;
+		}
+}
+@media screen and (max-width: 420px) {
+		.price_calc .printer-table {
+				font-size: 20px;
+				font-size: 1.25rem;
+		}
+}
 .price_calc .relative-box {
 		border-radius: 0 4px 4px 0;
 		border-top: solid 1px #D2D2D2;
