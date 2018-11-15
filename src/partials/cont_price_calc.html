@@ -12,18 +12,21 @@
                     
                     <div class="col-sm-12">
                       <div class="form-group">
-                        <p class="">Dolar interbancario <span class="hidden-xs">al
-                          <script>
-                          var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-                          var f=new Date();
-                          document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-                          </script></span>
-                        = <big><strong>32,05</strong></big></p>
+                        <p class="">
+                          <span class="hidden-xs">
+                            <script>
+                            var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                            var f=new Date();
+                            document.write(f.getDate() + " de " + meses[f.getMonth()]);
+                            </script>
+                          </span>
+                          - Dólar Interbancario BCU = <big><strong>32,05</strong></big>
+                        </p>
                       </div>                    
                     </div>
 
                     <!-- Condiciones de Pago -->
-                    <div class="col-sm-8">
+                    <div class="col-sm-7">
                       <div class="form-group">
                         <legend>Condiciones de Pago</legend>
                         <label for="terms01" class="col-xs-3 control-label">Condiciones</label>
@@ -37,31 +40,20 @@
                           </div>
                       </div>                    
                     </div>
-                    <div class="col-sm-4">
-                      <div class="form-group relative-box two-files">
-                        <p class="">Si no tiene condición de pago acordada considere CONTADO.</p>
-                      </div>
-                    </div>
-
-                    <!-- Máquina -->
-                    <div class="col-sm-7">
-                      <div class="form-group">
-                        <legend>Seleccione la máquina apropiada</legend>
-                        <label for="select01" class="col-xs-3 control-label">Máquina</label>
-                          <div class="col-xs-9 col-sm-8">
-                            <select id="select01" class="form-control selectpicker">
-                              <option>Spedd Master 52</option>
-                              <option>Spedd Master 74</option>
-                              <option>Spedd Master 102</option>
-                            </select>
-                          </div>
-                      </div>                    
-                    </div>
                     <div class="col-sm-5">
-                      <div class="form-group relative-box">
-                        <p class="">Si la cantidad es alta no deje de probar poner más formas y usar una máquina de mayor tamaño.<br class="hidden-xs hidden-sm"><br class="hidden-xs hidden-sm"></p>
+                      <div class="form-group relative-box two-files">
+                        <p class="">Si no tiene condición de pago acordada considere CONTADO y si lo desea gestione su <b>forma de pago</b>.</p>
                       </div>
                     </div>
+                    <center class="col-xs-12">
+                      <br>
+                      <a href="#" class="btn btn-raised btn-primary btn-sm">¿Si desea solicitar su forma de pago pulse aquí?</a>
+                      
+                    </center> 
+
+                    <div class="col-xs-12 mt-2 separador"></div>
+
+                    <!-- Consideraciones sobre las máquinas -->
                     <div class="col-xs-12">
                       <div class="form-group">
                         <p class="printer-title">Tenga en cuenta mínimos y máximos de cada máquina</p>
@@ -96,6 +88,28 @@
                       </div>
                     </div>
 
+                    <h5>LOS DATOS REQUERIDOS SON INDISPENSABLES PARA UN CALCULO CORRECTO</h5>
+
+                    <!-- Máquina -->
+                    <div class="col-sm-7">
+                      <div class="form-group">
+                        <legend>Seleccione la máquina apropiada</legend>
+                        <label for="select01" class="col-xs-3 control-label">Máquina</label>
+                          <div class="col-xs-9 col-sm-8">
+                            <select id="select01" class="form-control selectpicker">
+                              <option>Spedd Master 52</option>
+                              <option>Spedd Master 74</option>
+                              <option>Spedd Master 102</option>
+                            </select>
+                          </div>
+                      </div>                    
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="form-group relative-box two-files">
+                        <p class="">Si la cantidad es alta no deje de probar poner más formas y usar una máquina de mayor tamaño.</p>
+                      </div>
+                    </div>                    
+
                     <div class="clearfix"></div>
 
                     <!-- Chapas -->
@@ -103,7 +117,7 @@
                       <div class="form-group">
                         <legend>Chapas necesarias</legend>
                         <label for="number01" class="col-xs-5 control-label">Cant.</label>
-                          <div class="col-xs-6">
+                          <div class="col-xs-6" style="margin-top: 7px">
                             <input type="number" min="1" class="form-control" id="number01">
                           </div>
                       </div>                    
@@ -112,10 +126,10 @@
                       <div class="form-group relative-box">
                         <div class="row">
                           <div class="col-xs-5">
-                            <p class="">
+                            <p class="small">
                               &nbsp;&nbsp; C/U $U: <span><b>165<sup>00</sup></b></span><br>
                               &nbsp;&nbsp; Total $U: <span><b>660<sup>00</sup></b></span><br>
-                              &nbsp;&nbsp; Total US$: <span><b>20<sup>59</sup></b></span>
+                              &nbsp;&nbsp; Total U$S: <span><b>20<sup>59</sup></b></span>
                             </p>                            
                           </div>
                           <div class="col-xs-7">
@@ -166,7 +180,7 @@
 
                     <div class="col-xs-12 col-sm-6">
                       <div class="form-group relative-box especial-margin">
-                        <p>Hemos seleccionado tintas POLOLO, tanto en CMYK como en colores Pantone®.<br> 
+                        <p class="line-1">Hemos seleccionado tintas POLOLO, tanto en CMYK como en colores Pantone®.<br> 
                         Le recordamos que de una marca a otra pueden haber pequeñas diferencias al lograr un color.<br> 
                         Los mismos son medidos y solo lograremos aproximaciones aprobados por por nuestro responsable,
                         con él PUEDE COORDINAR SU PRESENCIA PARA CONFIRMARLOS USTED MISMO.</p>                        
@@ -205,15 +219,11 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6">
-                      <div class="form-group relative-box two-files">
-                        <p class="">&nbsp;&nbsp; Precio hoja $U: <span><b>3<sup>54</sup></b></span></p>
-                        <p class="">&nbsp;&nbsp; Precio hoja US$: <span><b>0<sup>10</sup></b></span></p>
-                          <p>
-                            El precio del papel es el de plaza.<br>
-                            Compre solo lo que necesita, no cobramos fraccionamiento.<br>
-                            Puede llevar papel fraccionado para el en su taller.
-                          </p>                                               
-                        </div>
+                      <div class="form-group relative-box">
+                        <p>Precio hoja $U: <span><b>3<sup>54</sup></b></span> 
+                        &nbsp;&nbsp; Precio hoja U$S: <span><b>0<sup>10</sup></b></span><br>
+                        El precio del papel es el de plaza. Compre solo lo que necesita, no cobramos fraccionamiento.</p>
+                      </div>
                     </div>
 
                     <div class="clearfix"></div>
@@ -223,7 +233,7 @@
                       <div class="form-group">
                         <legend>Cantidad de pliegos buenos</legend>
                         <label for="goodsheet01" class="col-xs-4 control-label">Cantidad</label>
-                          <div class="col-xs-6">
+                          <div class="col-xs-6" style="margin-top: 7px">
                             <input type="number" class="form-control" id="goodsheet01">
                           </div>
                       </div>                    
@@ -231,9 +241,11 @@
 
                     <div class="col-xs-12 col-sm-4">
                       <div class="form-group relative-box">
-                        <p class="">&nbsp;&nbsp; Pliegos que salen por hoja <span class="bold" id="cutSheets01">04</span></p>
-                        <p class="">&nbsp;&nbsp; Se necesitan <span class="bold" id="necessarySheets01">55000</span> hojas</p>
-                        <p class="">&nbsp;&nbsp; Incluye demasía de <span class="bold" id="excess01">50</span> por chapa</p>                     
+                        <p class="">
+                          &nbsp;&nbsp; Pliegos que salen por hoja <span class="bold" id="cutSheets01">04</span> <br>
+                          &nbsp;&nbsp; Se necesitan <span class="bold" id="necessarySheets01">55000</span> hojas <br>
+                          &nbsp;&nbsp; Incluye demasía de <span class="bold" id="excess01">50</span> por chapa
+                        </p>                     
                       </div>
                     </div>
 
@@ -241,9 +253,11 @@
 
                     <div class="col-xs-12 col-sm-3">
                       <div class="form-group">
-                        <legend class="uppercase">Precio papel</legend>
-                        <p class="" id="paperPrice01">$U <span class="bold">1623<sup>00</sup></span></p>
-                        <p class="" id="paperPrice01">US$ <span class="bold">49<sup>18</sup></span></p>
+                        <p class="printer-title uppercase">Precio papel</p>
+                        <p class="" id="paperPrice01">
+                          $U <span class="bold">1623<sup>00</sup></span> <br>
+                          U$S <span class="bold">49<sup>18</sup></span>
+                        </p>
 
                       </div>                    
                     </div>
@@ -419,7 +433,7 @@
                     <div class="col-xs-12 col-sm-4">
                       <div class="form-group relative-box two-files">
                         <p class="">&nbsp;&nbsp; Importe doblado $U: <span class="bold"><b>300<sup>00</sup></b></span></p>
-                        <p class="">&nbsp;&nbsp; Importe doblado US$: <span class="bold"><b>9<sup>09</sup></b></span></p>
+                        <p class="">&nbsp;&nbsp; Importe doblado U$S: <span class="bold"><b>9<sup>09</sup></b></span></p>
                       </div>
                     </div>
                   </div><!-- */row -->
@@ -431,7 +445,7 @@
                     <div class="col-xs-12 col-sm-6">
                       <div class="well">
                         <p class="total">Total trabajo $U: <span>2288<sup>00</sup></span></p>
-                        <p class="total">Total trabajo US$: <span>69<sup>33</sup></span></p>      
+                        <p class="total">Total trabajo U$S: <span>69<sup>33</sup></span></p>      
                       </div>                  
                     </div>
                     <div class="col-sm-3 hidden-xs"></div>                  
