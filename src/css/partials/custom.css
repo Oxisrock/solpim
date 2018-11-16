@@ -8,25 +8,35 @@ body {
   @media (--mobile) {
   	margin-top: 5.5rem !important;
   }
+
+  @media (--tablet-v) {
+	margin-top: 6.5rem !important;
+  }
 }
+
 h1.typed-title {
 	font-size: responsive 1.8rem 3.6rem !important;	
 }
+
 .bold {
 	font-size: responsive 1.4rem 1.6rem;
 	font-weight: bold;
 }
+
 #citeHeader {
 	font-size: responsive 1.6rem 2rem !important;
 }
+
 .color-gray {
 	color: var(--colorGray);
 }
+
 .intro-full {
 	display: grid !important;
 	justify-content: center;
 	align-content: center;
 }
+
 #namePpal {
 	font-size: responsive 1.8rem 3.2rem;
 
@@ -37,7 +47,8 @@ h1.typed-title {
 		font-size: 4rem;
 	}
 }
-.modal {
+
+/*.modal {
 	
 	& .modal-content {
 	background: #f1f1f1;
@@ -51,13 +62,15 @@ h1.typed-title {
 			color: rgba(0,0,0,.55);
 		}
 	}
-}
+}*/
+
 .ms-hero-code {
     background-image: url(../img/codigo.jpg);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat
 }
+
 .ms-hero-bg-dark::after {
 	display: block;
 	content: "";
@@ -71,10 +84,12 @@ h1.typed-title {
 	background-color: rgba(2, 2, 2, .75);
 	z-index: 0;
 }
+
 .ms-slidebar .ms-slidebar-menu > li > a.link::after {
 	font-family: 'FontAwesome';
 	content: "\f054";
 }
+
 .ms-lead-navbar {
 	background-color: #1565C0 !important;
 	height: 13vh;
@@ -83,9 +98,17 @@ h1.typed-title {
 		max-height: 5.5rem;
 	}
 
+	@media (--tablet-v) {
+		max-height: 6.5rem;
+	}
+
 	& .logo {
 		height: 10vh;
 		width: auto;
+
+		@media (--tablet-v) {
+			max-height: 5rem;
+		}
 
 		@media (--mobile) {
 			max-height: 4rem;

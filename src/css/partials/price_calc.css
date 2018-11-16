@@ -51,10 +51,10 @@ ESTILOS price_calc.html
 			line-height: 1.7;
 		}
 	}
+	
 	& .legendGray {
 		font-size: 16px;
 		color: #9e9e9e !important;
-
 	}
 
 	& .printer-title {
@@ -64,6 +64,7 @@ ESTILOS price_calc.html
 		/*font-size: responsive 1.25rem 1.4rem;*/
 		line-height: 1.1;
 	}
+
 	& .printer-table {
 		font-size: responsive 1.25rem 1.4rem;		
 	}
@@ -77,6 +78,15 @@ ESTILOS price_calc.html
 		padding: .65rem .4rem .65rem 0;
 
 		@media (--mobile) {
+			border-radius: 0 4px 4px 0;
+			border-top: solid 1px transparent;
+			border-right: solid 1px var(--colorGrayLigth);
+			border-bottom: solid 1px var(--colorGrayLigth);
+			border-left: solid 1px var(--colorGrayLigth);
+			padding: 0 .65rem .65rem .65rem;
+		}
+
+		@media (--tablet-v) {
 			border-radius: 0 4px 4px 0;
 			border-top: solid 1px transparent;
 			border-right: solid 1px var(--colorGrayLigth);
@@ -123,6 +133,10 @@ ESTILOS price_calc.html
 		padding: 2rem 0 2rem 0;
 
 		@media (--mobile) {
+			padding: 0 .65rem .65rem .65rem;
+		}
+
+		@media (--tablet-v) {
 			padding: 0 .65rem .65rem .65rem;
 		}
 	}
