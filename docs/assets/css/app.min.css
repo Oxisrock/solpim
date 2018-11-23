@@ -1,7 +1,7 @@
 /*Hoja de Estilo*/
-/*Desarrollada para el proyecto: Pagina personal
+/*Desarrollada para el proyecto: Página Solpim
 **Por: Enrique Valerio
-**Enero 2018
+**Noviembre 2018
 */
 /*Tipografía usada*/
 /******************************
@@ -272,6 +272,81 @@ ESTILOS price_calc.html
 	}
 		}
 /******************************
+ESTILOS SILDER VERTICAL
+*******************************/
+.slider-wrap {
+  height: 100%;
+  width: 100%;
+}
+.slider-wrap .slider {
+	  position: absolute;
+	  width: 100%;
+	  left: 50px;
+	  top: 0;
+	}
+.slider-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+	
+	/*& .animation-card_image {
+	  max-width: 60px;
+	  max-height: 60px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  border-radius: 50%;
+	  box-shadow: 0 4px 9px rgba(241, 241, 244, 0.72);
+	  background-color: #ffffff;
+	}*/
+}
+/*
+.slider-item .animation-card_image img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.slider-item .animation-card_content {
+  width: 100%;
+  max-width: 374px;
+  margin-left: 26px;
+}
+.slider-item .animation-card_content .animation-card_content_title {
+  color: #4a4545;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  line-height: 24px;
+  margin: 0;
+}
+.slider-item .animation-card_content .animation-card_content_description {
+  color: #696d74;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin: 10px 0 0 0;
+}
+.slider-item .animation-card_content .animation-card_content_city {
+  font-size: 11px;
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #696d74;
+}*/
+/******************************
 ESTILOS PROPIOS DEL TEMA
 *******************************/
 body {
@@ -290,6 +365,9 @@ body {
 	margin-top: 6.5rem !important
 }
   }
+body.bd-scroll {
+		padding-top: 0px;
+	}
 h1.typed-title {
 	font-size: calc(0.92093rem + 3.34884vw);	
 }
@@ -336,6 +414,11 @@ h1.typed-title {
 				font-size: 1.6rem;
 		}
 }
+@media (min-width: 601px) and (max-width: 1024px) {
+.container {
+		width: 98%
+}			
+	}
 .color-gray {
 	color: #757575;
 }
@@ -502,6 +585,11 @@ h1.typed-title {
 .pt-8 {padding-top: 128px;padding-top: 8rem}
 .pb-10 {padding-bottom: 160px;padding-bottom: 10rem;}
 .pt-10 {padding-top: 160px;padding-top: 10rem;}
+.small2 {
+	font-size: 19.2px;
+	font-size: 1.2rem;
+	line-height: 1.35;
+}
 /******************************
 MEDIA-QUERIES
 *******************************/

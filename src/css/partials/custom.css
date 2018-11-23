@@ -5,15 +5,18 @@ body {
   font-size: var(--fontSize);
   margin-top: 13vh !important;
 
-  @media (--mobile) {
+	@media (--mobile) {
   	margin-top: 5.5rem !important;
   }
 
   @media (--tablet-v) {
 	margin-top: 6.5rem !important;
   }
+  
+	&.bd-scroll {
+		padding-top: 0px;
+	}
 }
-
 h1.typed-title {
 	font-size: responsive 1.8rem 3.6rem !important;	
 }
@@ -25,6 +28,12 @@ h1.typed-title {
 
 #citeHeader {
 	font-size: responsive 1.6rem 2rem !important;
+}
+
+.container {
+	@media (--tablet-h) {
+		width: 98%;			
+	}
 }
 
 .color-gray {
@@ -176,3 +185,7 @@ h1.typed-title {
 .pb-10 {padding-bottom: 10rem;}
 .pt-10 {padding-top: 10rem;}
 
+.small2 {
+	font-size: 1.2rem;
+	line-height: 1.35;
+}

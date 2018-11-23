@@ -1,12 +1,13 @@
 /*Hoja de Estilo*/
-/*Desarrollada para el proyecto: Pagina personal
+/*Desarrollada para el proyecto: Página Solpim
 **Por: Enrique Valerio
-**Enero 2018
+**Noviembre 2018
 */
 @import './partials/variables.css';
 @import './partials/mediaquery.css';
 @import './partials/tipografia.css';
-@import './partials/price_calc.css';
+@import './partials/price-calc.css';
+@import './partials/vertical-slider.css';
 @import './partials/custom.css';
 
 /******************************
