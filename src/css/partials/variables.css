@@ -1,10 +1,11 @@
 :root{
---fontSize: 16px;
+--fontSize: 14px;
 --colorGrayLigth: #D2D2D2;
 --colorGray: #757575;
 --colorPpal: #1565C0;
 --colorSec: #FFAD1C;
+--colorSecL:#FFB965;
 --colorSubTitle: #0E437F;
 --colorText: #444;
---colorWhite: #f1f1f1;
+--colorWhite: #fff;
 }

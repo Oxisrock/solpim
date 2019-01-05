@@ -4,6 +4,8 @@ ESTILOS PROPIOS DEL TEMA
 body {
   font-size: var(--fontSize);
   margin-top: 13vh !important;
+  font-family: Quicksand, sans-serif;
+  font-weight: 300;
 
 	@media (--mobile) {
   	margin-top: 5.5rem !important;
@@ -25,6 +27,20 @@ h1.typed-title {
 	font-size: responsive 1.4rem 1.6rem;
 	font-weight: bold;
 }
+.btn-calc-price {
+	font-size: responsive 1rem 1.5rem;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black;
+}
+.card.card-warning .card-header, .card.card-warning .card-footer {
+	background-color: var(--colorSecL);
+	color: var(--colorWhite);
+}
+.card .card-header h1.super-title {
+	color: var(--colorWhite) !important;
+	font-size: responsive 1.8rem 2.7rem !important;
+	font-weight: 700 !important;
+}
 
 #citeHeader {
 	font-size: responsive 1.6rem 2rem !important;
@@ -35,7 +51,6 @@ h1.typed-title {
 		width: 98%;			
 	}
 }
-
 .color-gray {
 	color: var(--colorGray);
 }
@@ -44,6 +59,10 @@ h1.typed-title {
 	display: grid !important;
 	justify-content: center;
 	align-content: center;
+}
+legend {
+	border-bottom: 0;
+	font-weight: 500;
 }
 
 #namePpal {
@@ -72,7 +91,13 @@ h1.typed-title {
 		}
 	}
 }*/
-
+.ms-collapse .panel-warning .panel-heading {
+	padding: 0;
+	background-color: var(--colorSecL);
+}
+.ms-collapse .panel .panel-heading .panel-title a {
+	font-weight: 700;
+}
 .ms-hero-code {
     background-image: url(../img/codigo.jpg);
     background-size: cover;
@@ -93,7 +118,9 @@ h1.typed-title {
 	background-color: rgba(2, 2, 2, .75);
 	z-index: 0;
 }
-
+.ms-lead-navbar .navbar-nav li a {
+	font-weight: 400;
+}
 .ms-slidebar .ms-slidebar-menu > li > a.link::after {
 	font-family: 'FontAwesome';
 	content: "\f054";

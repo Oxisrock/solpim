@@ -21,7 +21,7 @@ function startAnim(array){
             {x:0, y:400, opacity: 0, zIndex: 0}, 
             {x:0, y:350, opacity: 0.5, zIndex: 0, ease: Cubic.easeInOut}, );
     } else {
-        $('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
+        $('#card-slider').append('<p>Lo sentimos, el carrusel debe contener más de 3 diapositivas.</p>')
     }
 }
 
