@@ -19,3 +19,5 @@ SOLPIM quiere aportar a esta realidad una alternativa válida basada en una plat
 * [Enrique Valerio (Diseñador)](https://caballero73.github.io/enriquevalerio/ "Enrique Valerio - Diseñador")
 
 https://caballero73.github.io/enriquevalerio/
+
+Sitio de prueba: https://caballero73.github.io/solpim/index.html#home

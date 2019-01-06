@@ -463,6 +463,12 @@ h1.typed-title {
 .color-gray {
 	color: #757575;
 }
+.footer-text a{
+	color: #fff;
+}
+.footer-text a:hover{
+		font-weight: 700;
+	}
 .intro-full {
 	display: grid !important;
 	-webkit-box-pack: center;
