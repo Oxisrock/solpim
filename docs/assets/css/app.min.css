@@ -351,7 +351,7 @@ ESTILOS SILDER VERTICAL
 ESTILOS PROPIOS DEL TEMA
 *******************************/
 body {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 13vh !important;
   font-family: Quicksand, sans-serif;
   font-weight: 300;
@@ -403,20 +403,20 @@ h1.typed-title {
 		}
 }
 .btn-calc-price {
-	font-size: calc(0.75581rem + 0.93023vw);
+	font-size: calc(1.25581rem + 0.93023vw);
 	font-weight: bolder;
 	text-shadow: 1px 1px 2px black;
 }
 @media screen and (min-width: 1280px) {
 		.btn-calc-price {
-				font-size: 24px;
-				font-size: 1.5rem;
+				font-size: 32px;
+				font-size: 2rem;
 		}
 }
 @media screen and (max-width: 420px) {
 		.btn-calc-price {
-				font-size: 16px;
-				font-size: 1rem;
+				font-size: 24px;
+				font-size: 1.5rem;
 		}
 }
 .card.card-warning .card-header, .card.card-warning .card-footer {
@@ -558,7 +558,7 @@ legend {
 }
 .ms-lead-navbar {
 	background-color: #1565C0 !important;
-	height: 13vh;
+	height: 12vh;
 }
 @media (min-width: 0px) and (max-width: 544px) {
 .ms-lead-navbar {
@@ -573,7 +573,7 @@ legend {
 }
 	}
 .ms-lead-navbar .logo {
-		height: 10vh;
+		height: 9vh;
 		width: auto;
 	}
 @media (min-width: 545px) and (max-width: 600px) {
